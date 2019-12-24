@@ -27,17 +27,23 @@ plt.rcParams["figure.figsize"] = fig_size
 
 
 # In[3]:
+file1=input("enter file name")
 
+mat=spio.loadmat(file1)
 
-for filename in os.listdir(os.getcwd()):
-    mat=spio.loadmat(filename)
-    data=mat['EEG'][0][0][16]
-    mn=spio.mean(data, axis=1)
-    mdn=spio.median(data, axis=1)
-    sd=spio.std(data, axis=1)
-    krts=stats.kurtosis(data, axis=1)
-    qntle=np.quantile(data, 0.75, axis=1)
-    skw=stats.skew(data, axis=1)
+data=mat['EEG'][0][0][16]
+
+mn=spio.mean(data, axis=1)
+
+mdn=spio.median(data, axis=1)
+
+sd=spio.std(data, axis=1)
+
+krts=stats.kurtosis(data, axis=1)
+
+qntle=np.quantile(data, 0.75, axis=1)
+
+skw=stats.skew(data, axis=1)
 
 
 # In[11]:
