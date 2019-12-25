@@ -33,7 +33,9 @@ WEEK 3
 WEEK 4
 
 23-12 SVM applied on a sample data available online(accuracy 0.99)
-   
+24-12 Code to extract features from available EEG data changed to load all files present in current directory.
+Started off with transferring extracted data into one file 
+
    Results-->
     
 [[147   2]
