@@ -33,8 +33,6 @@ WEEK 3
 WEEK 4
 
 23-12 SVM applied on a sample data available online(accuracy 0.99)
-24-12 Code to extract features from available EEG data changed to load all files present in current directory.
-Started off with transferring extracted data into one file 
 
    Results-->
     
@@ -49,3 +47,12 @@ Started off with transferring extracted data into one file
     accuracy                           0.99       275
    macro avg       0.99      0.99      0.99       275
 weighted avg       0.99      0.99      0.99       275
+
+24-12 Code to extract features from available EEG data changed to load all files present in current directory.
+Started off with transferring extracted data into one file 
+
+25-12 
+Studied SVM concepts
+
+New Release! Code was updated to extract frequency domain features and convert time series data to frequency domain data.
+Working to create single .npy file containg whole data
