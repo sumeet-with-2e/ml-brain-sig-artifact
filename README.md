@@ -56,3 +56,30 @@ Studied SVM concepts
 
 New Release! Code was updated to extract frequency domain features and convert time series data to frequency domain data.
 Working to create single .npy file containg whole data
+
+26-12
+
+Read the structure of recieved training data, 
+Wrote Python code to extract data from mat file and create a Pandas DataFrame
+
+2 separate dataframes were made: X which contains the statistical features of time series data
+
+and y which contains 1 or 0 values depicting whether its a brain signal or not respectively.
+
+27-12
+
+Linear SVM applied to achive binary classification into brain signals and artifacts
+
+Following results were obtained:
+
+[[219   0]
+ [ 17   0]]
+ 
+              precision    recall  f1-score   support
+
+           0       0.93      1.00      0.96       219
+           1       0.00      0.00      0.00        17
+
+    accuracy                           0.93       236
+   macro avg       0.46      0.50      0.48       236
+weighted avg       0.86      0.93      0.89       236
