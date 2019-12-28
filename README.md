@@ -83,3 +83,10 @@ Following results were obtained:
     accuracy                           0.93       236
    macro avg       0.46      0.50      0.48       236
 weighted avg       0.86      0.93      0.89       236
+
+28-12
+
+Changing the aim from making a binary classifier to a multi class classifier 
+which can clssify obtained data into following 7 classes:
+
+Brain, Muscle, Eye, Heart, Line Noise, Channel noise, Other
