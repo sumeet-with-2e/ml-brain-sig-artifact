@@ -90,3 +90,10 @@ Changing the aim from making a binary classifier to a multi class classifier
 which can clssify obtained data into following 7 classes:
 
 Brain, Muscle, Eye, Heart, Line Noise, Channel noise, Other
+
+30-12
+
+Removed the biased nature of data
+
+Python Code to count number of brain signals in given data and make another dataset of randomly selected non-brain signals 
+and create a single dataframe containing both type of signals in equal numbers.
