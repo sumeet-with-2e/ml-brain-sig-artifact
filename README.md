@@ -91,9 +91,50 @@ which can clssify obtained data into following 7 classes:
 
 Brain, Muscle, Eye, Heart, Line Noise, Channel noise, Other
 
+29-12
+
+Learned how to manually classify and tell components apart i.e labelling the given Independent Components.
+
+Read the online IC label repository available here
+https://gin.g-node.org/doi/ICLabel-Dataset
+
 30-12
 
 Removed the biased nature of data
 
 Python Code to count number of brain signals in given data and make another dataset of randomly selected non-brain signals 
 and create a single dataframe containing both type of signals in equal numbers.
+
+Results:
+
+[[18  2]
+ [11  4]]
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.90      0.73        20
+         1.0       0.67      0.27      0.38        15
+
+    accuracy                           0.63        35
+   macro avg       0.64      0.58      0.56        35
+weighted avg       0.64      0.63      0.58        35
+
+31-12
+
+Train, test split changed to 20% for testing set
+
+New EEG files added, size of dataset increased
+
+Results:
+
+[[39 14]
+ [24 33]]
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.74      0.67        53
+         1.0       0.70      0.58      0.63        57
+
+    accuracy                           0.65       110
+   macro avg       0.66      0.66      0.65       110
+weighted avg       0.66      0.65      0.65       110
+
+
