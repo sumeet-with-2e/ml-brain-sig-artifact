@@ -89,7 +89,7 @@ Following results were obtained:
            1       0.00      0.00      0.00        17
 
     accuracy                           0.93       236
-   macro avg       0.46      0.50      0.48       236
+   macro avg       0.46      0.50      0.48       236  
 weighted avg       0.86      0.93      0.89       236
 
 ### 28-12
@@ -115,7 +115,7 @@ and create a single dataframe containing both type of signals in equal numbers.
 
 Results:
 
-[[18  2]
+[[18  2]  
  [11  4]]
               precision    recall  f1-score   support
 
@@ -123,8 +123,8 @@ Results:
          1.0       0.67      0.27      0.38        15
 
     accuracy                           0.63        35
-   macro avg       0.64      0.58      0.56        35
-weighted avg       0.64      0.63      0.58        35
+   macro avg       0.64      0.58      0.56        35  
+weighted avg       0.64      0.63      0.58        35  
 
 ### 31-12
 
@@ -134,7 +134,7 @@ New EEG files added, size of dataset increased
 
 Results:
 
-[[39 14]
+[[39 14]  
  [24 33]]
               precision    recall  f1-score   support
 
@@ -142,8 +142,8 @@ Results:
          1.0       0.70      0.58      0.63        57
 
     accuracy                           0.65       110
-   macro avg       0.66      0.66      0.65       110
-weighted avg       0.66      0.65      0.65       110
+   macro avg       0.66      0.66      0.65       110  
+weighted avg       0.66      0.65      0.65       110  
 
 ### 1-1
 
