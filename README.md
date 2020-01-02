@@ -149,3 +149,14 @@ weighted avg       0.66      0.65      0.65       110
 
 Trying to add Frequency features 
 Same Results obtained
+
+[[31 21]  
+ [18 35]]  
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.60      0.61        52
+         1.0       0.62      0.66      0.64        53
+
+    accuracy                           0.63       105
+   macro avg       0.63      0.63      0.63       105  
+weighted avg       0.63      0.63      0.63       105  
