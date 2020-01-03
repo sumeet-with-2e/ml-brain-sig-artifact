@@ -174,3 +174,16 @@ Increased the data size
     accuracy                           0.71       144
    macro avg       0.71      0.71      0.71       144  
 weighted avg       0.71      0.71      0.71       144
+
+### 3-1
+
+[[39 23]  
+ [13 56]]
+              precision    recall  f1-score   support
+
+         0.0       0.75      0.63      0.68        62
+         1.0       0.71      0.81      0.76        69
+
+    accuracy                           0.73       131
+   macro avg       0.73      0.72      0.72       131
+weighted avg       0.73      0.73      0.72       131
