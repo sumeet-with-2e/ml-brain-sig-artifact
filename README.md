@@ -187,3 +187,16 @@ weighted avg       0.71      0.71      0.71       144
     accuracy                           0.73       131
    macro avg       0.73      0.72      0.72       131
 weighted avg       0.73      0.73      0.72       131
+
+After adding Maximum value in frequency domain as the 13th feature
+
+[[47 16]
+ [18 50]]
+              precision    recall  f1-score   support
+
+         0.0       0.72      0.75      0.73        63
+         1.0       0.76      0.74      0.75        68
+
+    accuracy                           0.74       131
+   macro avg       0.74      0.74      0.74       131
+weighted avg       0.74      0.74      0.74       131
