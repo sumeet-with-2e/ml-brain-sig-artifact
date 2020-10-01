@@ -1,8 +1,10 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-#this code runs SVM algo on a data available online and has to 
-#be changed accordingly to apply on EEG data once available
+'''
+this code runs SVM algo on a data available online and is just 
+a practice attempt for applying SVM before addressing our original clasification problem
+'''
 bankdata = pd.read_csv("bill_authentication.csv")
 print(bankdata.shape)
 print(bankdata.head())
