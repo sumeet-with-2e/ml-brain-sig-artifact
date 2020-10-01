@@ -1,5 +1,5 @@
 # ml-brain-sig-artifact
-
+## Winter Research Internship, IIITA, 2019
 Machine Learning model to Classify between Brain Signals and EEG Artifacts
 
 The classification of brain signals and other artifacts is still an authoritarian
